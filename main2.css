@@ -1,0 +1,68 @@
+@import url(./common2.css);
+
+
+.mid {
+    background: lightgrey;
+    width: 100%;
+}
+
+.mid .product {
+    /* background: lightcyan; */
+    line-height: 2;
+    text-align: center;
+}
+.mid .product h1 {
+font-size: 4em;
+font-weight: bold;
+}
+.mid .product p {
+    font-size: 1.2em;
+}
+.mid .product .box {
+display: flex;
+justify-content: center;
+margin: 30px 0;
+}
+.mid .product a {
+    font-size: 1.2em;
+    border: 1px solid gray;
+    display: flex;
+    width: 10%;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2px;
+    padding: 5px auto;
+}
+.mid .product a:hover {
+    color: red;
+    border: 2px solid red;
+}
+.mid .product a:nth-child(4) {
+    margin-right: 0;
+}
+.mid .middle {
+    /* background: lightcoral; */
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.mid .middle li {
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+    width: 50%;
+    flex-wrap: wrap;
+}
+
+
+
+.mid .drag {
+    /* background: lightgreen; */
+    text-align: center;
+    border-top: 1px solid black;
+    margin-top: 50px;
+}
+.mid .drag .scroll {
+    margin: 30px 0;
+}
