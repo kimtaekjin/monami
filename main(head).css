@@ -5,10 +5,11 @@ body {
   font-family: "Noto Sans KR","돋움",dotum,sans-serif;
 }
 
-header {
+.head{
   position: fixed;
   width: 100%;
-  height: 650px;
+  height: 170px;
+  background: #fff;
   z-index: 9999;
 }
 header .link {
@@ -58,6 +59,9 @@ header .link nav ul {
 
 #top {
   border-right: 1px solid #999;
+  display: block;
+  padding: 0 auto;
+  width: 70px;
 }
 
 header .link nav ul li p {
@@ -72,33 +76,115 @@ header .head .container {
   display: flex;
   padding-right: 100px;
   justify-content: space-evenly;
-  background: blue;
 }
 
 header .head .container .introduction {
-  display: flex;
-  font-size: 20px;
-  height: 300px;
+  display:flex;
+  font-size: 18px;
+  height: 100px;
   width: 1000px;
   justify-content: space-between;
-  background: yellow;
   padding-top: 30px;
   position:relative;
   left: 30px;
 }
 
-header .head .container .introduction ul {
+header .head .container .introduction ul{
   display: flex;
   flex-direction: column;
-  font-size: 17px;
+  font-size: 14px;
   line-height: 40px;
   margin-top: 30px;
   align-items: center;
   width: 100%;
 }
+#intro:hover{
+  color: rgb(226, 86, 86);
+}
+
+@keyframes intro {
+  0% {
+    top: -100%; 
+  }
+  50% {
+    top: 50%; 
+  }
+  100% {
+    top: 0%;
+  }
+}
+#intro:hover ul li{
+  animation: intro;
+  opacity:1;
+  transition: 2s;
+}
 header .head .container .introduction ul li{
   border-bottom: 1px solid #ddd8d8;
+  color: #000;
   display: inline-block;
+  background:rgba(236, 231, 231, 0.2);
   width: 100%;
   text-align: center;
+  opacity: 0;
+}
+/* end head */
+.img{
+  padding-top: 170px;
+}
+
+section{
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
+}
+section .arrival h2{
+  width: 300px;
+  display: block;
+  line-height: 30px;
+  padding: 20px;
+  align-content: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+section .arrival p{
+  font-size: 13px;
+  padding-bottom:40px ;
+  padding-left:20px;
+  color: #999;
+}
+section .arrival ul{
+  width: 1300px;
+  height: 900px;
+  display: flex;
+  flex-flow: row wrap;
+  position: relative;
+}
+section .arrival .monami li:nth-child(2){
+  position: relative;
+  left: 20px;
+}
+section .arrival .monami .back-font{
+  position: relative;
+  bottom: 210px;
+  text-align: center;
+  color: white;
+  padding-top: 40px;
+  padding-left: 50px;
+  width: 90%;
+  height: 207px;
+  background:rgba(200, 0, 0,1);
+}
+section .arrival .monami .back-font{
+  position: relative;
+  bottom: 210px;
+  text-align: center;
+  color: white;
+  padding-top: 40px;
+  padding-left: 50px;
+  width: 90%;
+  height: 207px;
+  background:rgba(200, 0, 0,1);
+}
+section .arrival .monami li:hover::before{
+  opacity: 1;
 }
