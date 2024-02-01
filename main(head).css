@@ -1,26 +1,22 @@
 @import url(./common.css);
 
-
-
 body {
   width: 100%;
   font-family: "Noto Sans KR","돋움",dotum,sans-serif;
 }
 
-header{
+header {
   position: fixed;
   width: 100%;
-  height:150px;
-  position: relative;
+  height: 650px;
+  z-index: 9999;
 }
-
 header .link {
   display: flex;
   margin: 15px;
   height: 50px;
   border-bottom: 1px solid #d4d0d0;
   justify-content: space-between;
-
 }
 
 header .link .lang {
@@ -42,46 +38,67 @@ header .link .top {
   left: 100px;
   display: flex;
   padding-left: 10px;
-  width: 50px;
-  ;
 }
 
 header .link .top .insta {
   position: relative;
   left: 5px;
 }
-header .link nav{
+
+header .link nav {
   font-size: 12px;
   width: 250px;
   color: #999;
 }
-header .link nav ul{
-  display:flex;
+
+header .link nav ul {
+  display: flex;
   justify-content: space-around;
 }
-header .link nav ul li #top{
 
+#top {
   border-right: 1px solid #999;
 }
-header .link nav ul li p{
+
+header .link nav ul li p {
   display: block;
   text-align: center;
   margin-top: 10px;
-  margin-right:5px;
+  margin-right: 5px;
 }
-header .head .container{
+
+header .head .container {
   font-size: 15px;
-  background: yellow;
   display: flex;
   padding-right: 100px;
-  justify-content:space-evenly;
-  position: relative;
-
+  justify-content: space-evenly;
+  background: blue;
 }
+
 header .head .container .introduction {
   display: flex;
-  background: red;
-  width:70%;
-  justify-content:space-around;
+  font-size: 20px;
+  height: 300px;
+  width: 1000px;
+  justify-content: space-between;
+  background: yellow;
+  padding-top: 30px;
+  position:relative;
+  left: 30px;
+}
+
+header .head .container .introduction ul {
+  display: flex;
+  flex-direction: column;
+  font-size: 17px;
+  line-height: 40px;
+  margin-top: 30px;
   align-items: center;
+  width: 100%;
+}
+header .head .container .introduction ul li{
+  border-bottom: 1px solid #ddd8d8;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
 }
