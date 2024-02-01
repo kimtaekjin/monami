@@ -1,1 +1,87 @@
 @import url(./common.css);
+
+
+
+body {
+  width: 100%;
+  font-family: "Noto Sans KR","돋움",dotum,sans-serif;
+}
+
+header{
+  position: fixed;
+  width: 100%;
+  height:150px;
+  position: relative;
+}
+
+header .link {
+  display: flex;
+  margin: 15px;
+  height: 50px;
+  border-bottom: 1px solid #d4d0d0;
+  justify-content: space-between;
+
+}
+
+header .link .lang {
+  border: 1px solid #999;
+  border-radius: 10px;
+  width: 80px;
+  height: 30px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+header .link .lang p {
+  text-align: center;
+  padding-top: 7px;
+  font-size: 13px;
+}
+
+header .link .top {
+  position: absolute;
+  left: 100px;
+  display: flex;
+  padding-left: 10px;
+  width: 50px;
+  ;
+}
+
+header .link .top .insta {
+  position: relative;
+  left: 5px;
+}
+header .link nav{
+  font-size: 12px;
+  width: 250px;
+  color: #999;
+}
+header .link nav ul{
+  display:flex;
+  justify-content: space-around;
+}
+header .link nav ul li #top{
+
+  border-right: 1px solid #999;
+}
+header .link nav ul li p{
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  margin-right:5px;
+}
+header .head .container{
+  font-size: 15px;
+  background: yellow;
+  display: flex;
+  padding-right: 100px;
+  justify-content:space-evenly;
+  position: relative;
+
+}
+header .head .container .introduction {
+  display: flex;
+  background: red;
+  width:70%;
+  justify-content:space-around;
+  align-items: center;
+}
