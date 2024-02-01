@@ -41,20 +41,20 @@ margin: 30px 0;
     margin-right: 0;
 }
 .mid .middle {
-    /* background: lightcoral; */
+    background: lightcoral;
     display: flex;
-    justify-content: space-between;
-    position: relative;
 }
-
 .mid .middle li {
-    display: flex;
-    position: absolute;
-    bottom: 10px;
-    width: 50%;
-    flex-wrap: wrap;
-}
 
+
+}
+.mid .middle li img {
+
+}
+.mid .middle li p {
+    background: white;
+    width: 100%;
+}
 
 
 .mid .drag {
