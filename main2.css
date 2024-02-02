@@ -41,13 +41,11 @@ margin: 30px 0;
     margin-right: 0;
 }
 .mid .middle {
-    /* background: lightcoral; */
+    background: lightcoral;
     display: flex;
-    justify-content: space-between;
-    position: relative;
 }
-
 .mid .middle li {
+<<<<<<< HEAD
     display: flex;
     position: absolute;
     bottom: 10px;
@@ -55,7 +53,18 @@ margin: 30px 0;
     flex-wrap: wrap;
     background: red;
 }
+=======
+>>>>>>> b5d297f5c7f0bec84eee13e7bdfec888bacfebb9
 
+
+}
+.mid .middle li img {
+
+}
+.mid .middle li p {
+    background: white;
+    width: 100%;
+}
 
 
 .mid .drag {
