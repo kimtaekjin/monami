@@ -14,11 +14,17 @@ body {
   background: black;
   border-radius: 50%;
 }
+.button .font{
+  font-family: 'KCC-eunyoung';
+  font-size: 55px;
+  position: relative;
+  left: -3px;
+}
 .button #txt{
   position: relative;
   font-size: 35px;
   top: 60px;
-  left: 50px;
+  left: 20px;
   color: #fff;
 }
 .button .button-txt {
@@ -28,7 +34,7 @@ body {
   width: 140px;
   height: 40px;
   border-radius: 30px;
-  bottom: -110px;
+  bottom: -70px;
   right: -40px;
   color:black;
   background: #fff;
@@ -171,11 +177,19 @@ header .head .container .introduction {
   display: flex;
   font-size: 18px;
   height: 100px;
-  width: 1000px;
+  width: 1500px;
   justify-content: space-between;
   padding-top: 30px;
   position: relative;
   left: 30px;
+  top: -12px;
+}
+header .head .container .introduction a{
+  width: 200px;
+}
+header .head .container .introduction a li{
+  position: relative;
+  left: -40px;
 }
 
 header .head .container .introduction ul {
@@ -216,7 +230,7 @@ header .head .container .introduction ul li {
   border-bottom: 1px solid #ddd8d8;
   color: #000;
   display: inline-block;
-  background: rgba(236, 231, 231, 0.2);
+  background: rgba(236, 231, 231, 0.3);
   width: 100%;
   text-align: center;
   opacity: 0;
@@ -345,8 +359,7 @@ section .arrival .monami .back3 {
 }
 
 section .arrival .monami .back4 {
-  margin-top: 10px;
-  margin-left: 13px;
+  margin: 13px;
   width: 95%;
   height: 95%;
 
