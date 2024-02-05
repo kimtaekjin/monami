@@ -467,3 +467,566 @@ section .arrival .monami li ul:hover {
     transform: rotate(360deg);
   }
 }
+
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+body {
+  width: 100%;
+}
+
+.mid {
+  background: rgb(241, 240, 240);
+  overflow: hidden;
+  display: block;
+}
+
+.mid .product {
+  /* background: lightcyan; */
+  line-height: 2;
+  text-align: center;
+}
+
+.mid .product h1 {
+  font-size: 4em;
+  font-weight: bold;
+}
+
+.mid .product h1::after {
+  content: '';
+  display: block;
+  width: 30px;
+  height: 5px;
+  margin: 0 auto 10px;
+  background: red;
+
+}
+
+.mid .product p {
+  font-size: 1.2em;
+}
+
+.mid .product .box {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+
+.mid .product a {
+  font-size: 1.2em;
+  border: 1px solid gray;
+  display: flex;
+  width: 10%;
+  align-items: center;
+  justify-content: center;
+  margin-right: 2px;
+  padding: 5px auto;
+}
+
+.mid .product a:hover {
+  color: red;
+  border: 2px solid red;
+}
+
+.mid .product a:nth-child(4) {
+  margin-right: 0;
+}
+
+/* ----------------------------------------------------------------------- */
+
+
+.mid .middle {
+  /* background: lightcoral; */
+  overflow: hidden;
+
+
+}
+
+.mid .middle .wrap {
+  overflow: hidden;
+  margin: auto;
+  text-align: center;
+
+}
+
+.mid .middle .wrap li {
+  float: left;
+  margin: 0 4px;
+  height: 350px;
+  width: 220px;
+  overflow: hidden;
+  background: white;
+  margin-left: 10px;
+
+
+}
+
+.mid .middle .wrap li:first-child {
+  margin-left: 30px;
+}
+
+.mid .middle .wrap li img {
+  width: 200px;
+  height: 300px;
+  overflow: hidden;
+
+}
+
+.mid .middle .wrap li a p {
+  overflow: hidden;
+  background: white;
+  padding: 0 30px 0;
+  text-align: left;
+}
+
+.mid .middle .wrap li a .fn {
+  margin: 0 0 5px;
+  font-size: 12px;
+  color: gray;
+}
+
+.mid .middle .wrap li a .mn {
+  font-size: 14px;
+}
+
+.mid .middle li a {
+  cursor: pointer;
+
+}
+
+.mid .middle li a img {}
+
+.mid .middle li p {
+  background: white;
+}
+
+
+.mid .drag {
+  /* background: lightgreen; */
+  width: 100%;
+  border-top: 1px dotted gray;
+  margin-top: 50px;
+}
+
+
+.mid .drag .pointer {
+  width: 800px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.mid .drag .pointer .img11 {
+  position: absolute;
+  left: 0;
+  top: -10px;
+  width: 50px;
+  height: 50px;
+}
+
+.mid .drag .pointer .img12 {
+  position: absolute;
+  right: 0;
+  top: -10px;
+  width: 50px;
+  height: 50px;
+}
+
+.mid .drag .img13 {
+  margin: 0 auto;
+  width: 150px;
+  margin-top: -10px;
+  text-align: center;
+  background: rgb(241, 240, 240);
+}
+
+.mid .drag .img13 p {
+  margin: 50px 0;
+}
+
+/* ------------------------------------------------------------ */
+
+.movie {
+  width: 100%;
+  background-attachment: fixed;
+}
+
+.bottom {
+  width: 80%;
+  border-bottom: 1px solid rgb(245, 245, 245);
+  height: 300px;
+  background: rgb(245, 245, 245);
+  margin: 0 auto;
+}
+
+.bottom .news {
+  float: left;
+  width: 50%;
+  height: 300px;
+  border-right: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+
+.bottom .news ul li:first-child {
+  position: relative;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+
+.bottom .news ul li h1 {
+  font-size: 1.5em;
+}
+
+.bottom .news ul li a {
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-decoration: underline;
+  font-size: 0.9em;
+  margin-right: 20px;
+}
+
+.bottom .news ul li:first-child::after {
+  content: '';
+  background: red;
+  width: 40px;
+  height: 3px;
+  margin: 5px 0 0;
+  position: absolute;
+  left: 0;
+}
+
+.bottom .news .list {
+  position: relative;
+  height: 130px;
+  border-bottom: 1px solid lightgrey;
+}
+
+
+.bottom .news .list .fl {
+  float: left;
+}
+
+.bottom .news .list .txt {
+  float: left;
+  margin-left: 30px;
+  width: 500px;
+  line-height: 1.3;
+}
+
+.bottom .news .list .txt h2 {
+  font-size: 1.4em;
+}
+
+.bottom .news .list .txt p {
+  font-size: 15px;
+  color: gray;
+}
+
+.bottom .news .list .txt .date {
+  position: absolute;
+  font-size: 16px;
+  bottom: 20px;
+  right: 20px;
+}
+
+.bottom .news .ml .bl {
+  position: relative;
+  line-height: 1.5;
+font-size: 15px;
+}
+
+.bottom .news .ml p {
+  line-height: 1.5;
+
+}
+
+.bottom .news .ml .date {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: gray;
+  font-size: 15px;
+  margin-right: 20px;
+}
+
+.bottom .wrap {
+  width: 100%;
+  margin: 0 100px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.bottom .qna {
+  float: left;
+  width: 250px;
+  height: 300px;
+  background-image: url(./imgs/캡처.PNG);
+  box-sizing: border-box;
+  border-bottom: 1px solid lightgray;
+  text-align: center;
+}
+
+.bottom .qna h2 {
+  margin: 65px 0 0;
+  padding-top: 65px;
+  font-size: 1.3em;
+}
+
+.bottom .qna h2::after {
+  content: '';
+  background-color: red;
+  width: 30px;
+  height: 4px;
+  display: block;
+  margin: 5px auto;
+}
+
+.bottom .qna p {
+  font-size: 12px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.bottom .qna a {
+  display: block;
+  border: 1px solid red;
+  line-height: 35px;
+  margin: 0 auto;
+  width: 160px;
+  height: 35px;
+  transition: 0.6s;
+}
+
+.bottom .qna a:hover {
+  color: white;
+  background: red;
+  transition: 0.6s;
+}
+
+.bottom .shop {
+  float: left;
+  width: 250px;
+  height: 300px;
+  background-image: url(./imgs/캡처2.PNG);
+  box-sizing: border-box;
+  border-bottom: 1px solid lightgray;
+  text-align: center;
+  border-right: 1px solid lightgray;
+}
+
+.link {
+  width: 100%;
+  height: 150px;
+  background-color: #fff;
+  
+}
+.link .link2 {
+  width: 80%;
+  background-color: #fff;
+  height: 150px;
+  padding: 45px 0;
+  width: 1400px;
+  margin: 0 auto;
+
+  
+
+}
+
+.link .link2 li {
+  width: 20%;
+  height: 60px;
+  float: left;
+  border: 1px solid black;
+  overflow: hidden;
+  transition: 0.5s;
+  margin-left: 60px;
+  text-align: center
+}
+.link .link2 li:nth-last-child() {
+}
+
+.link .link2 li:hover {
+  border: 1px solid red;
+  transition: 0.5s;
+}
+
+
+.link .link2 li img {
+  width: 220px;
+  height: 60px;
+}
+
+
+/* footer */
+.footer {
+  position: relative;
+  background: #111;
+  padding: 60px 0 65px;
+}
+
+.footer {
+  color: white;
+}
+
+.foot {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.foot:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.foot_top {
+  width: 100%;
+  padding-bottom: 25px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.foot_top:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.foot_top h1 {
+  float: left;
+}
+
+.foot_top .fm {
+  overflow: hidden;
+  float: right;
+}
+
+.foot_top .fm li {
+  float: left;
+  padding-right: 11px;
+  margin-right: 10px;
+
+}
+
+.foot_top .fm li:last-child {
+  margin: 0;
+  padding: 0;
+  background: 0;
+}
+
+.foot_top .fm li a {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.foot_btm {
+  width: 100%;
+  padding-top: 25px;
+}
+
+.foot_btm:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.foot_btm .tit {
+  font-size: 15px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.foot_btm .info {
+  width: 40%;
+  float: left;
+  margin-right: 55px;
+  display: inline;
+}
+
+.foot_btm .info address {
+  display: flex;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.3);
+  font-weight: 300;
+
+}
+
+.foot_btm .info address span {
+  display: block;
+  padding: 0 10px;
+  margin-bottom: 3px;
+}
+
+.foot_btm .info .copy {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.3);
+  font-weight: 300;
+}
+
+.foot_btm .cc {
+  float: left;
+}
+
+.foot_btm .cc_tel {
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+
+.foot_btm .fam_site {
+  display: block;
+  padding: 0 13px;
+  height: 34px;
+  line-height: 34px;
+  font-size: 13px;
+  width: 150px;
+  color: rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+  position: relative;
+  float: right;
+  border:1px solid gray;
+  position: relative;
+}
+
+.foot_btm .fam_site a .fa-solid {
+  color: rgba(255, 255, 255, 0.4);
+  float: right;
+  margin-top: 10px;
+
+}
+.foot_btm .fam_site ul {
+  width: 100%;
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: column-reverse;
+  position: absolute;
+  bottom: 34px;
+  background-color: black;
+  left: 0px;
+  text-align: left;
+  opacity: 0;
+}
+.foot_btm .fam_site ul:hover {
+  opacity: 1;
+}
+.foot_btm .fam_site ul li {
+  height: 34px;
+  width: 100%;
+  margin-left: 5px;
+
+}
