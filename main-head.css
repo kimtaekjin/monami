@@ -37,9 +37,13 @@ body {
   margin-left: 30px;
   margin-top:10px;
 }
-.button .button-txt .cross{
+.button .button-txt .lnr-cross{
  color:white;
- position: relative;
+ font-weight: bold;
+ position: absolute;
+ top: 40px;
+ right: 60px;
+ cursor: pointer;
 }
 .button .button-txt p{
   position: relative;
@@ -64,7 +68,33 @@ header .link {
   border-bottom: 1px solid #d4d0d0;
   justify-content: space-between;
 }
-
+header .link .lang-after:active{
+  opacity: 1;
+  animation: lang 0.3s linear; 
+  animation-fill-mode: both;
+}
+@keyframes lang {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(70%);
+  }
+}
+header .link .lang-after{
+  position: absolute;
+  opacity: 0;
+  transition: 0.3s;
+  border-bottom: 1px solid #999;
+  border-left: 1px solid #999;
+  border-right: 1px solid #999;
+  border-radius: 10px;
+  top: 0;
+  width:80px;
+  height: 30px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  background: #fff;
+}
 header .link .lang {
   border: 1px solid #999;
   border-radius: 10px;
