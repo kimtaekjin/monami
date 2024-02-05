@@ -20,6 +20,7 @@ body {
   position: relative;
   left: -3px;
 }
+
 .button #txt{
   position: relative;
   font-size: 35px;
@@ -27,6 +28,14 @@ body {
   left: 20px;
   color: #fff;
 }
+.button #txt span{
+  padding-left: 30px;
+}
+.head .lang span{
+  padding-left: 25px;
+  padding-top: 9px;
+}
+
 .button .button-txt {
   position: relative;
   display: flex;
@@ -39,21 +48,26 @@ body {
   color:black;
   background: #fff;
 }
-.button .button-txt p span{
-  margin-left: 30px;
+.button .button-txt .lnr-pencil{
+  position: relative;
+  left: -25px;
+  margin-left: 10px;
   margin-top:10px;
 }
 .button .button-txt .lnr-cross{
  color:white;
  font-weight: bold;
  position: absolute;
- top: 40px;
+ top: 50px;
  right: 60px;
  cursor: pointer;
 }
+
 .button .button-txt p{
   position: relative;
   right: 20px;
+  top: 10px;
+  font-weight: bold;
 }
 .head {
   position: fixed;
