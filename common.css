@@ -1,6 +1,11 @@
 /* reset css */
 @import url('https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css');
-
+@font-face {
+  font-family: 'KCC-eunyoung';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KCC-eunyoung-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 * {
   box-sizing: border-box;
 }
