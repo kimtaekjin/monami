@@ -534,6 +534,7 @@ text-align: center;
 .mid .product h1 {
 font-size: 4em;
 font-weight: bold;
+
 }
 
 .mid .product h1::after {
@@ -603,13 +604,13 @@ height: 350px;
 width: 215px;
 overflow: hidden;
 background: white;
-margin-left: 5px;
+margin-left: 15px;
 
 
 }
 
 .mid .middle .wrap li:first-child {
-margin-left: 30px;
+margin-left: 25px;
 }
 
 .mid .middle .wrap li img {
@@ -809,7 +810,7 @@ margin: 0 auto;
 float: left;
 width: 25%;
 height: 330px;
-background-image: url(./imgs/캡처.PNG);
+background-image: url(./imgs/cp.PNG);
 box-sizing: border-box;
 border-bottom: 1px solid lightgray;
 text-align: center;
@@ -856,7 +857,7 @@ transition: 0.6s;
 float: left;
 width: 25%;
 height: 330px;
-background-image: url(./imgs/캡처2.PNG);
+background-image: url(./imgs/cp2.PNG);
 box-sizing: border-box;
 border-bottom: 1px solid lightgray;
 text-align: center;
@@ -936,7 +937,7 @@ height: 80px;
 .foot_top {
   width: 100%;
   padding-bottom: 25px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255);
 }
 
 .foot_top:after {
@@ -968,7 +969,7 @@ height: 80px;
 }
 
 .foot_top .fm li a {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255);
 }
 
 .foot_btm {
@@ -997,7 +998,7 @@ height: 80px;
 .foot_btm .info address {
   display: flex;
   font-size: 14px;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255);
   font-weight: 300;
   align-items: center;
 line-height: 1.5;
@@ -1012,7 +1013,7 @@ padding: 0px 5px;
 
 .foot_btm .info .copy {
   font-size: 12px;
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255);
   font-weight: 300;
 }
 
@@ -1023,7 +1024,7 @@ padding: 0px 5px;
 
 .foot_btm .cc_tel {
   font-size: 24px;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255);
 }
 
 
@@ -1034,7 +1035,7 @@ padding: 0px 5px;
   line-height: 34px;
   font-size: 13px;
   width: 250px;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255);
   cursor: pointer;
  position: absolute;
   float: right;
@@ -1044,14 +1045,14 @@ padding: 0px 5px;
 }
 
 .foot_btm .fam_site a .fa-solid {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255);
   float: right;
   margin-top: 10px;
 
 }
 .foot_btm .fam_site ul {
   width: 100%;
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(255, 255, 255);
   display: flex;
   flex-direction: column-reverse;
   position: absolute;
