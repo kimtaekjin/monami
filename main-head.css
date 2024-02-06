@@ -171,6 +171,8 @@ header .link nav ul {
   display: block;
   padding: 0 auto;
   width: 70px;
+  position: relative;
+  left: -10px;
 }
 
 header .link nav ul li p {
